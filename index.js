@@ -24,7 +24,7 @@ client.on('ready', () => {
      console.log(`ON ${client.guilds.size} Servers '     Script By : Dark7oveRR ' `);
    console.log(`----------------`);
  console.log(`Logged in as ${client.user.tag}!`);
- client.user.setGame(`NEMEX | MUSIC 1`,"https://www.twitch.tv/dark7overr")
+ client.user.setGame(`NEMEX | PREFIX $PLAY`,"https://www.twitch.tv/dark7overr")
  client.user.setStatus("dnd")
 });
 const prefix = "$"
