@@ -24,10 +24,10 @@ client.on('ready', () => {
      console.log(`ON ${client.guilds.size} Servers '     Script By : Dark7oveRR ' `);
    console.log(`----------------`);
  console.log(`Logged in as ${client.user.tag}!`);
- client.user.setGame(`Moon | PREFIX $PLAY`,"https://www.twitch.tv/dark7overr")
+ client.user.setGame(`Dark7oveRR | PREFIX $PLAY`,"https://www.twitch.tv/dark7overr")
  client.user.setStatus("dnd")
 });
-const prefix = "$"
+const prefix = "/"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
